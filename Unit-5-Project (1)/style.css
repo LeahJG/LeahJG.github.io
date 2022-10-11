@@ -1,0 +1,78 @@
+/*
+
+Add a nav element between the header and main element.
+
+You will build a horizontal navbar with links to the page sections.  You will need to add id's to each h2 and use bookmark links
+. */
+
+body{
+  background-color: grey;
+}
+
+h1, h2 ,h3{
+  text-align: center;
+}
+
+#wrapper{
+  width:80%;
+  margin: auto;
+  background-color: darkgray;
+  box-shadow: 5px 10px;
+}
+
+div{
+  width: 90%;
+  margin: auto;
+}
+
+.itembox{
+  border: 3px solid black;
+  border-radius: 5px
+  box-shadow: 5px 10px;
+  background-color: grey;
+  color: black;
+  padding: 5px;
+  white-space: normal;
+  border-
+}
+
+.favorite{
+  border: 5px solid black;
+  border-radius: 5px
+  box-shadow: 5px 10px;
+  background-color: darkgray;
+  color: darkgoldenrod;
+  padding: 5px;
+}
+
+/* horizontal navbar */
+
+nav{
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}

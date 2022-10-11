@@ -1,0 +1,39 @@
+/*
+
+Use CSS to resize the background image to cover the entire container.
+
+Add a div element with an ID of Wrapper.  Place it in the body like so.
+
+*/
+#borderimg{
+background-color: grey;
+color: white;
+}
+
+html{
+  background-image: url("banana-dance.gif");
+  background-size: cover;  
+  object-fit: cover;
+}
+
+#wrapper{
+  width:60%
+  margin: auto;
+  margin-top: 30px;
+}
+
+.ban-border{
+border-image-slice:
+60 60 60 60;
+border-image-width:
+40px 45px 40px 45px;
+border-image-outset:
+0px 0px 0px 0px;
+border-image-repeat:
+round round;
+border-image-source: url("ban.png");
+border-style: solid;
+padding: 45px;
+}
+
+ul {list-style-image: url('ban16.gif');}
