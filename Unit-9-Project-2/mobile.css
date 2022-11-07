@@ -1,0 +1,46 @@
+p, main img, main{
+  float: none;
+  text-align: left;
+  margin: 0;
+}
+
+#wrapper {
+  width: auto;
+}
+
+footer, main{
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  margin: 0;
+}
+p, nav {
+font-size: 20px;
+}
+
+nav{
+  border-top: 10px;
+  border-bottom: 10px;
+  border-right: 5px;
+  border-left: 5px;
+}
+
+headings, nav{
+  text-align: center;
+  width: auto;
+  float: none;
+  margin: 0;
+}
+
+h1 {
+  background-image: none;
+  height: auto;
+}
+
+body{
+  border: 8px solid #330000;
+}
+
+li{
+  border: 2px solid #330000;
+}
